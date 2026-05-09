@@ -30,7 +30,7 @@ body {
     margin-bottom: 1px;
 }
 
-#nama, #email, #password{
+#nama, #email{
     padding: 15px;
     background-color: #d4d4d4;
     box-sizing: border-box;
@@ -42,6 +42,23 @@ body {
 .inputname, .inputemail, .inputpassword{
     margin-bottom: 10px;
 }
+
+.passwordcolumn{
+    display: flex;
+    align-items: center;
+    background-color: #d4d4d4;
+    border-radius: 15px;
+    border: 1px solid #909090;
+    flex: 1;
+}
+.passwordcolumn input {
+    flex: 1;
+    min-width: none;
+}
+svg {
+    width: 20px;
+    height: 20px;
+}
 button {
     color: aliceblue;
     background-color: black;
@@ -51,6 +68,13 @@ button {
     font-size: 20px;
     margin-top: 15px;
     font-weight: bold;
+}
+
+input {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    padding: 15px;
 }
 input::placeholder{
     font-size: 20px;
